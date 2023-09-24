@@ -24,15 +24,9 @@ export const Comment = ({ user, commentId, userId, comment, likes, publishedAt, 
 
     if (deleteCommentConfirm) {
       setPostComments((prevComments) => {
-        const removeCommentIndex = prevComments.findIndex(comment => comment.id === commentId)
-        console.log(removeCommentIndex)
-        if (removeCommentIndex > -1) {
-          const newCommentList = prevComments.splice(removeCommentIndex, 1)
-    
-          return newCommentList
-        }
+        const filteredComments = prevComments.filter(comment => comment.id !== commentId)
 
-        return prevComments
+        return filteredComments
       })
     }
   }
