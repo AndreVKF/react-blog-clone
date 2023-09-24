@@ -1,0 +1,62 @@
+.sidebar {
+  background: var(--gray-800);
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.cover {
+  width: 100%;
+  height: 7.2rem;
+  object-fit: cover;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: calc(-0px - 2rem - 1.5rem);
+}
+
+.profile strong {
+  margin-top: 1rem;
+  color: var(--gray-100);
+  line-height: 1.6rem;
+}
+
+.profile span {
+  margin-top: 0.6rem;
+  font-size: 1.4rem;
+}
+
+.sidebar footer {
+  border-top: 1px solid var(--gray-600);
+  margin-top: 2rem;
+  padding: 2rem 2.25rem 2.25rem;
+}
+
+.sidebar footer a {
+  display: block;
+  background: transparent;
+  color: var(--green-500);
+  border: 1px solid var(--green-500);
+  border-radius: 8px;
+  height: 5.8rem;
+  padding: 0 0.8rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.8rem;
+
+  transition: color 0.2s, background-color 0.2s;
+
+}
+
+.sidebar footer a:hover {
+  background-color: var(--green-500);
+  color: var(--white);
+}

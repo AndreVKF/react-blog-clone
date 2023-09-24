@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "avatar_url": "https://github.com/AndreVKF.png",
+    "name": "Andre Kina",
+    "role": "Developer"
+  },
+  {
+    "id": 2,
+    "avatar_url": "/lupet.png",
+    "name": "Lupet Bolota",
+    "role": "Best dog"
+  }
+]

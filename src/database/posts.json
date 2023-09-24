@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "user_id": 1,
+    "content": [
+      { "type": "paragraph", "content": "Fala galeraa ⭐" },
+      { "type": "paragraph", "content": "Acabei de subir mais um projeto no meu portfolio!!" },
+      { "type": "link", "content": "react.design/vite" }
+    ],
+    "published_at": "2023-09-24T09:25:43.511Z"
+  },
+  {
+    "id": 2,
+    "user_id": 2,
+    "content": [
+      { "type": "paragraph", "content": "Foom foom 🐕" },
+      { "type": "paragraph", "content": "Não esquece do meu biscoito!!" },
+      { "type": "link", "content": "#biscoito-salmao" }
+    ],
+    "published_at": "2023-09-24T10:33:43.511Z"
+  }
+]

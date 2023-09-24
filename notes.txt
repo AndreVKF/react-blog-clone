@@ -1,0 +1,6 @@
+# 3 momentos em que um componente é renderizado novamente no React
+
+I - Quando o estado é alterado;
+II - Quando a propriedade é alterado;
+III - Quando um compoente pai é renderizado novamente;
+

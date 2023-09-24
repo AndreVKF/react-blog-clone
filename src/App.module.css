@@ -1,0 +1,22 @@
+.wrapper {
+  max-width: 75%;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  display: grid;
+  grid-template-columns: 25.6rem 1fr;
+  gap: 3.2rem;
+
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+  
+}
