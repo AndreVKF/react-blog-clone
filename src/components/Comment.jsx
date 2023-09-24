@@ -25,9 +25,14 @@ export const Comment = ({ user, commentId, userId, comment, likes, publishedAt, 
     if (deleteCommentConfirm) {
       setPostComments((prevComments) => {
         const removeCommentIndex = prevComments.findIndex(comment => comment.id === commentId)
-        const newCommentList = prevComments.splice(removeCommentIndex, 1)
-  
-        return newCommentList
+        console.log(removeCommentIndex)
+        if (removeCommentIndex > -1) {
+          const newCommentList = prevComments.splice(removeCommentIndex, 1)
+    
+          return newCommentList
+        }
+
+        return prevComments
       })
     }
   }
